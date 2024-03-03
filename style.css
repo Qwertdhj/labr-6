@@ -1179,3 +1179,63 @@ margin-left: 100%;
   font-family: isocpeur;
   letter-spacing: 2px;
 }
+
+@media (max-width: 390px)
+{
+  .text-logo {
+    position: relative;
+    top: 18%;
+    left: 15%;
+}
+.text-logo span
+{
+  font-size: 55px;
+  letter-spacing: 0;
+}
+.text-logo span:nth-child(2n) {
+  letter-spacing: 0px;
+  font-size: 15px;
+  left: 0;
+  position: absolute;
+  top: 85%;
+}
+.text-logo span:nth-child(3n) {
+  line-height: 21px;
+  letter-spacing: 0px;
+  font-size: 15px;
+  width: 261px;
+  display: block;
+  top: 101px;
+  position: absolute;
+}
+.text-logo span:nth-child(4n) {
+  letter-spacing: 10%;
+  font-size: 15px;
+  width: 301px;
+  display: block;
+  text-align: right;
+  letter-spacing: 0;
+  left: 47%;
+  top: 440px;
+}
+.button {
+  position: relative;
+  top: 48%;
+  left: 15%;
+  cursor: pointer;
+  width: 32%;
+}
+.button span
+{
+  width: 100%;
+  display: block;
+}
+.image-box {
+  position: absolute;
+  top: 50%;
+  z-index: -1;
+  height: 70%;
+  left: 0;
+  width: 100%;
+}
+}
